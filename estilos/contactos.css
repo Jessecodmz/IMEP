@@ -1,0 +1,151 @@
+.navegacao {
+    position: absolute;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: 10;
+}
+
+.navegacao-pagina {
+    background-color: #202124;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+#nav-topo a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+#nav-topo a:hover {
+    color: #8ab4f8;
+}
+
+.seccao-contacto {
+    width: 100%;
+    padding: 60px 20px;
+    background-color: #f8f9fa;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.container-contacto {
+    width: 100%;
+    max-width: 600px;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid #dadce0;
+}
+
+.container-contacto h1 {
+    font-size: 1.8rem;
+    color: #202124;
+    margin-bottom: 10px;
+}
+
+.container-contacto p {
+    color: #5f6368;
+    margin-bottom: 30px;
+}
+
+.campo-grupo {
+    margin-bottom: 20px;
+}
+
+.campo-grupo label {
+    display: block;
+    font-size: 0.9rem;
+    color: #3c4043;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.campo-grupo input, 
+.campo-grupo textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+.campo-grupo input:focus, 
+.campo-grupo textarea:focus {
+    outline: none;
+    border-color: #1a73e8;
+}
+
+.botao-enviar {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: 500;
+}
+
+.botao-enviar:hover {
+    background-color: #1557b0;
+}
+
+.rodape-omni {
+    background-color: #202124;
+    color: #bdc1c6;
+    padding: 40px 20px;
+}
+
+.rodape-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.rodape-coluna {
+    flex: 1;
+    min-width: 220px;
+}
+
+.rodape-coluna h3, .rodape-coluna h4 {
+    color: white;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.rodape-coluna p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: grey;
+}
+
+.rodape-coluna ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.rodape-coluna ul li {
+    margin-bottom: 8px;
+}
+
+.rodape-coluna ul li a {
+    color: #9aa0a6;
+    text-decoration: none;
+}
+
+.rodape-coluna ul li a:hover {
+    color: lightblue;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacte-nos - CMSOFTWARES</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+<body>
+
+    <header class="navegacao">
+        <a href="index.html" class="marca-area">
+            <img src="media/imagens/logo.png" alt="Logótipo CMSOFTWARES">
+            <span class="nome-marca">CMSOFTWARES</span>
+        </a>
+        <nav class="nav-links" aria-label="Navegação Principal">
+            <a href="index.html">Início</a>
+            <a href="sobre_nos.html">Sobre Nós</a>
+            <a href="servicos.html">Produtos</a>
+            <a href="contacto.html" class="active">Contacte-nos</a>
+        </nav>
+    </header>
+
+    <main class="seccao-bloco">
+        <div class="container-contacto">
+            <h1 style="margin-bottom: 10px;">Fale Connosco</h1>
+            <p style="color: var(--cor-texto-secundario); margin-bottom: 30px;">Preencha o formulário abaixo para solicitar uma consultoria ou orçamento para a sua empresa.</p>
+            
+            <form action="#" method="POST">
+                <div class="campo-grupo">
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" id="nome" name="nome" placeholder="O seu nome" required>
+                </div>
+
+                <div class="campo-grupo">
+                    <label for="email">E-mail Corporativo</label>
+                    <input type="email" id="email" name="email" placeholder="exemplo@empresa.com" required>
+                </div>
+
+                <div class="campo-grupo">
+                    <label for="mensagem">Mensagem / Necessidade</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" placeholder="Descreva brevemente o que sua empresa precisa..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn-primario" style="width: 100%;">Enviar Mensagem</button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="rodape-omni">
+        <div class="rodape-container">
+            <div class="rodape-coluna">
+                <h3>JSC / CMSOFTWARES</h3>
+                <p>Distribuição de softwares e soluções completas de TI para empresas.</p>
+            </div>
+            <div class="rodape-coluna">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre_nos.html">Sobre Nós</a></li>
+                    <li><a href="servicos.html">Produtos</a></li>
+                    <li><a href="contacto.html">Contacte-nos</a></li>
+                </ul>
+            </div>
+            <div class="rodape-coluna">
+                <h4>Contacto</h4>
+                <p>Email: suporte@CMSOFTWARES.co.mz</p>
+                <p>Telefone: +258 84 532 4312</p>
+                <p>Matola / Maputo, Moçambique</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
